@@ -1,0 +1,91 @@
+/* About.css */
+.about-container {
+    background-color: #000;
+    width: 100%;
+  }
+  
+  .about-content {
+    display: flex;
+    height: 50%
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .extra{
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .about-title{
+    padding: 50px;
+  }
+  
+  .about-info h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .about-info p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #888;
+  }
+  .about-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .about-text-title{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .about-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-button {
+    padding: 8px 35px;
+    width: 50%;
+    font-size: 1rem;
+    border: 0.5px solid #888;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+    margin-top: 25px;
+  }
+  .btn2{
+    background-color: #af9007;
+  }
+  .btn2:hover{
+    background-color: transparent;
+  }
+  
+  .about-button:hover {
+    background-color: #af9007;
+  }
+  
